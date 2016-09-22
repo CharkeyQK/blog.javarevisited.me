@@ -15,11 +15,15 @@ tags:
 ## 前言
 
 曾经很久前就想做的一件事情：整一个自己的博客。
+
 ^_^，有点懒拖到现在。
+
 不过，"It's never too late to start!"
+
 Charkey 的 Blog 就这么开通了，尽量坚持更新、写写博客。
 
 之前想用 Hexo 搭建博客，没坚持做下去。
+
 现在学习了 [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com/) 快速搭建博客的技术方案，很轻松，很赞。
 
 <p id = "build"></p>
