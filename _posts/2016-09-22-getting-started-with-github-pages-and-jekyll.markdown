@@ -43,7 +43,7 @@ Github Pages 分为两种：
 ### 如何创建 User site
 
 1. 在自己的账户下，以自己的用户名创建一个仓库。比如我这边的 *charkeyqk.github.io*
-![Create a new repository](/img/in-post/building-your-own-blog/create-a-new-repository.jpg)
+![Create a new repository](/img/in-post/getting-started-with-github-pages-and-jekyll/create-a-new-repository.jpg)
 
 2. 克隆刚创建的仓库到本地
 ```shell
@@ -73,17 +73,17 @@ git push
 	![Settings of Github Pages](/img/in-post/building-your-own-blog/blog-hello-world.jpg)
 
 7. 再查看一下仓库 **Settings** > Github Pages 的配置情况
-![Settings of Github Pages](/img/in-post/building-your-own-blog/settings-github-pages.jpg)
+![Settings of Github Pages](/img/in-post/getting-started-with-github-pages-and-jekyll/settings-github-pages.jpg)
 
 到这里，我们已经可以使用 Github Pages 发布我们自己的页面了。
 
 ### 如何创建 Project site
 
 1. 创建一个新的仓库或者使用已有的仓库，在仓库中创建一个新的分支 `gh-pages`
-![Create branch: gh-pages](/img/in-post/building-your-own-blog/create-branch-gh-pages.jpg)
+![Create branch: gh-pages](/img/in-post/getting-started-with-github-pages-and-jekyll/create-branch-gh-pages.jpg)
 
 2. 参考 [如何创建 User site](#user-site) 的操作，克隆仓库并创建 index.html，只不过这回需要提交到 `gh-pages` 这个分支。当然也可以将 `gh-pages` 设置为默认分支。
-![Branches: default branch](/img/in-post/building-your-own-blog/branches-default-branch.jpg)
+![Branches: default branch](/img/in-post/getting-started-with-github-pages-and-jekyll/branches-default-branch.jpg)
 
 3. 在创建完 `gh-pages` 分支，**Settings** > Github Pages 会自动将此分支设置为站点的 Source。
 	![Settings of Github Pages](/img/in-post/building-your-own-blog/github-pages-source.jpg)
@@ -98,12 +98,12 @@ git push
 *Custom domains allow you to serve your site from a domain other than charkeyqk.github.io*
 
 1. 假设我们希望绑定 *blog2.javarevisited.me* 到 Github Pages，则需要在域名解析配置如下：
-![Settings of Github Pages](/img/in-post/building-your-own-blog/dns-cname.jpg)
+![Settings of Github Pages](/img/in-post/getting-started-with-github-pages-and-jekyll/dns-cname.jpg)
 *记录值那边填写的是自己 Github Pages 的默认域名，比如我的是 charkeyqk.github.io*
 
 2. Custom domain 设置
 在 Settings > Github Pages 设置 **Custom domain** 为自定义域名，点击 Save 保存，即可看到 *Your site is ready to be published at http://blog2.javarevisited.me/*，等 Github Pages 获取到域名的 DNS 解析记录之后就会发布站点。
-![Github Pages custom domain](/img/in-post/building-your-own-blog/github-pages-custome-domain.jpg)
+![Github Pages custom domain](/img/in-post/getting-started-with-github-pages-and-jekyll/github-pages-custome-domain.jpg)
 
 	>如果域名解析配置存在问题，Github Pages 会出现这样的错误提示：*Domain's DNS record could not be retrieved. For more information, see https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/.*
 
