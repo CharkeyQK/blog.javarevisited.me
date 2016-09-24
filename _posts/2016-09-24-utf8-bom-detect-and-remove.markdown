@@ -38,8 +38,8 @@ Unicode相关知识的详细介绍请参考 [UTF-8, UTF-16, UTF-32 & BOM](http:/
 
 下面是使用 WinHex 查看的情况：
 
-![UTF-8 with BOM](\img\in-post\utf8-bom-detect-and-remove\WinHex-UTF-8-with-BOM.jpg)
-![UTF-8](\img\in-post\utf8-bom-detect-and-remove\WinHex-UTF-8.jpg)
+![UTF-8 with BOM](/img/in-post/utf8-bom-detect-and-remove/WinHex-UTF-8-with-BOM.jpg)
+![UTF-8](/img/in-post/utf8-bom-detect-and-remove/WinHex-UTF-8.jpg)
 
 在 NIO 库中，所有数据都是用缓冲区处理的。在读取数据时，它是直接读到缓冲区中的。在写入数据时，它是写入到缓冲区中的。
 
