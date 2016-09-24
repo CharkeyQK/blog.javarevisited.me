@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "UTF-8 BOM detect and remove"
-subtitle:   " \"Building your own blog\""
+subtitle:   " \"UTF-8 with BOM & UTF-8\""
 date:       2016-09-24 15:45:00
 author:     "Charkey"
 header-img: "img/post-bg-2015.jpg"
