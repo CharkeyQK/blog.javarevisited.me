@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Building your own blog"
-subtitle:   " \"Getting started with Github Pages and Jekyll\""
+title:      "Getting started with Github Pages and Jekyll"
+subtitle:   " \"Building your own blog\""
 date:       2016-09-22 22:55:00
 author:     "Charkey"
 header-img: "img/post-bg-2015.jpg"
