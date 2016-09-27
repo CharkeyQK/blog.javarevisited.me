@@ -47,24 +47,24 @@ Github Pages 分为两种：
 
 2. 克隆刚创建的仓库到本地
 ```shell
-git clone https://github.com/CharkeyQK/charkeyqk.github.io.git
+$ git clone https://github.com/CharkeyQK/charkeyqk.github.io.git
 ```
 
 3. 进入项目目录
 ```shell
-cd charkeyqk.github.io
+$ cd charkeyqk.github.io
 ```
 
 4. 新建首页 *index.html*
 ```shell
-echo hello world > index.html
+$ echo hello world > index.html
 ```
 
 5. 添加修改、提交并推送到 Github
 ```shell
-git add .
-git commit -m 'index'
-git push
+$ git add .
+$ git commit -m 'index'
+$ git push
 ```
 
 6. 访问 *https://charkeyqk.github.io* 即可看到 hello world
@@ -125,7 +125,7 @@ Read more: [如何绑定域名到 Github Pages](https://help.github.com/articles
 
 这里不建议直接 clone 他的博客仓库，还是去 clone 他给大家做的一个稳定版的模版：
 ```shell
-git clone git@github.com:Huxpro/huxblog-boilerplate.git
+$ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 ```
 
 那么怎么修改模版呢？阅读 Hux blog 模版的说明文档 [README.zh.md](https://github.com/Huxpro/huxpro.github.io/blob/master/README.zh.md)
@@ -143,7 +143,7 @@ Jekyll 是用 Ruby 语言写的一个静态网页生成工具，所以要搭建 
 
 2. 打开 CMD，输入如下命令安装 Jekyll，然后请耐心等待安装完成。
 ```shell
-gem install jekyll
+$ gem install jekyll
 ```
 
 3. 安装验证
@@ -165,15 +165,15 @@ jekyll 3.2.1
 
 2. 按照如下的命令执行即可
 ```shell
-sudo apt-get -y update
-sudo apt-get -y install build-essential zlib1g-dev libssl-dev libreadline6-dev libyaml-dev
-cd /tmp
-wget https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.1.tar.gz
-tar -xvzf ruby-2.3.1.tar.gz
-cd ruby-2.3.1/
-./configure --prefix=/usr/local
-make
-sudo make install
+$ sudo apt-get -y update
+$ sudo apt-get -y install build-essential zlib1g-dev libssl-dev libreadline6-dev libyaml-dev
+$ cd /tmp
+$ wget https://cache.ruby-lang.org/pub/ruby/2.3/ruby-2.3.1.tar.gz
+$ tar -xvzf ruby-2.3.1.tar.gz
+$ cd ruby-2.3.1/
+$ ./configure --prefix=/usr/local
+$ make
+$ sudo make install
 ```
 
 3. Jekyll 的安装同 Windows 环境
