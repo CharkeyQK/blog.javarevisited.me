@@ -70,7 +70,7 @@ $ git push
 6. 访问 *https://charkeyqk.github.io* 即可看到 hello world
 > Github Pages 如果使用默认域名是需要使用https才能访问的，而自定义域名是无法在这边启用https的。Enforce HTTPS — Required for your site because you are using the default domain (charkeyqk.github.io) , Unavailable for your site because you have a custom domain configured (blog.javarevisited.me)
 	
-	![Settings of Github Pages](/img/in-post/building-your-own-blog/blog-hello-world.jpg)
+	![Blog hello world](/img/in-post/getting-started-with-github-pages-and-jekyll/blog-hello-world.jpg)
 
 7. 再查看一下仓库 **Settings** > Github Pages 的配置情况
 ![Settings of Github Pages](/img/in-post/getting-started-with-github-pages-and-jekyll/settings-github-pages.jpg)
@@ -86,7 +86,7 @@ $ git push
 ![Branches: default branch](/img/in-post/getting-started-with-github-pages-and-jekyll/branches-default-branch.jpg)
 
 3. 在创建完 `gh-pages` 分支，**Settings** > Github Pages 会自动将此分支设置为站点的 Source。
-	![Settings of Github Pages](/img/in-post/building-your-own-blog/github-pages-source.jpg)
+	![Github pages source](/img/in-post/getting-started-with-github-pages-and-jekyll/github-pages-source.jpg)
 
 4. 访问 Project site
 
