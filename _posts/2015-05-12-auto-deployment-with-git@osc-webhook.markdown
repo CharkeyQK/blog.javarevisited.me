@@ -108,3 +108,5 @@ public class WebHookExecutor {
     }
 }
 ```
+
+另外，也可以尝试使用 Node.js 来接收 Webhook 的请求，可以参考 [Webhook 实践 —— 自动部署](https://segmentfault.com/a/1190000003908244)
